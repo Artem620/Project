@@ -2,7 +2,7 @@ import telebot
 
 from .config import token
 bot=telebot.telebot(token)
-
+a = 100
 
 @bot.message_handler(commands=['start'])
 def start-message(message):
